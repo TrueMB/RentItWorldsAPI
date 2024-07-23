@@ -27,7 +27,7 @@ dependencies {
     compileOnly('io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT')
 }
 
-group = 'RentItWorldsAPI'
+group = 'com.github.TrueMB'
 version = '1.0'
 description = 'RentIt-Worlds API for Developer'
 java.sourceCompatibility = JavaVersion.VERSION_21
@@ -42,6 +42,8 @@ sourceSets {
 publishing {
     publications {
         maven(MavenPublication) {
+            artifactId 'RentItWorldsAPI'
+            
             from(components.java)
         }
     }
