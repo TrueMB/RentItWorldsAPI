@@ -149,5 +149,5 @@ public class RiwAPI {
 	 * @param pw - The PlayerWorld Object
 	 * @param consumer - Consumer which will be done after the world is loaded.
 	 */
-	public void loadWorld(PlayerWorld pw, Consumer<Boolean> consumer) {}
+	public void loadWorld(PlayerWorld pw, Consumer<World> consumer) {}
 }
